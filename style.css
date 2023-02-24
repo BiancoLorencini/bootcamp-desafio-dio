@@ -70,6 +70,22 @@ a:hover:before {
     width: 100%;
 }
 
+.initial-article {
+    padding: 100px 10px 0px 50px;
+    margin-top: 200px;
+}
+
+.img-inicial {
+    width: 700px;
+    margin-right: 30px;
+}
+
+.family {
+    max-height: 800px;
+    margin-top: 50px;
+    border-radius: 50%;
+}
+
 .first-section {
     display: flex;
     justify-content: center;
