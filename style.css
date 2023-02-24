@@ -79,15 +79,31 @@ a:hover:before {
 }
 
 .first-article{
-    background-color: #b2e4b142;
+    background-color: #b2e4b127;
     padding: 20px;
     border-radius: 5px;
 }
 
 .second-article {
-    background-color: #b2e4b142;
+    background-color: #b2e4b127;
     padding: 20px;
     border-radius: 5px;
 }
 
+footer {
+    display: flex;
+    justify-content: left;  
+    margin-top: 30px;
+    padding: 50px;
+    background-color: #1D951B;
+}
 
+.second-footer {
+    display: grid;
+    margin-left: 105px;
+}
+
+.icons {
+    margin-top: 15px;
+    max-height: 20px;
+}
