@@ -75,19 +75,32 @@ a:hover:before {
     justify-content: center;
     margin-top: 30px;
     gap: 40px;
-    height: 100vh;
+    height: 140vh;
+}
+
+.article-img {
+    float: left;
+    display: inline;
+    width: 180px;
+    margin: 20px 10px
+}
+
+.text-article-1 {
+    margin: 20px 10px;
 }
 
 .first-article{
     background-color: #b2e4b127;
     padding: 20px;
     border-radius: 5px;
+    max-width: 500px;
 }
 
 .second-article {
     background-color: #b2e4b127;
     padding: 20px;
     border-radius: 5px;
+    max-width: 500px;
 }
 
 footer {
