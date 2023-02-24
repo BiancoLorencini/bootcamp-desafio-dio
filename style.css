@@ -42,6 +42,7 @@ a {
     cursor: pointer;
     display: inline-flex;
     align-items: center;
+    color: #0e470d;
 }
 
 a:before,
