@@ -69,3 +69,25 @@ a:hover:after,
 a:hover:before {
     width: 100%;
 }
+
+.first-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 40px;
+    height: 100vh;
+}
+
+.first-article{
+    background-color: #b2e4b142;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.second-article {
+    background-color: #b2e4b142;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+
