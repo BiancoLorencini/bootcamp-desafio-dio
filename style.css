@@ -70,8 +70,14 @@ a:hover:before {
     width: 100%;
 }
 
+.initial-article h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #1D951B;
+}
+
 .initial-article {
-    padding: 100px 10px 0px 50px;
+    padding: 90px 10px 0px 50px;
     margin-top: 200px;
 }
 
