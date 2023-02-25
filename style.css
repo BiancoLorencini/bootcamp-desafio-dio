@@ -194,3 +194,9 @@ footer {
       opacity: 1;
     }
 }
+
+.table-head-2 {
+    background-color: black;
+    color: #1D951B;
+    padding: 6px;
+}
