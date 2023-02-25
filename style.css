@@ -15,6 +15,16 @@
     position: relative;
 }
 
+.head-clinic {
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    background-image: url('img/head-2-img-marcelo-leal.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
 .logo-img {
     z-index: 2;
     position: absolute;
