@@ -117,13 +117,30 @@ a:hover:before {
     padding: 20px;
     border-radius: 5px;
     max-width: 500px;
+    height: 880px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.568);
+}
+
+.first-article h2 {
+    text-align: center;
+    color: #1D951B;
+    padding: 10px;
 }
 
 .second-article {
-    background-color: #b2e4b127;
+    background-image: url(img/atention-alexandr-podvalny.jpg);
+    background-position: center center;
     padding: 20px;
     border-radius: 5px;
-    max-width: 500px;
+    width: 500px;
+    height: 880px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.568);
+}
+
+.second-article h2 {
+    text-align: center;
+    color: #1D951B;
+    padding: 10px;
 }
 
 footer {
