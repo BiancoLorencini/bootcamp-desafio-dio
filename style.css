@@ -123,12 +123,53 @@ a:hover:before {
     border-radius: 50%;
 }
 
+
+
 .first-section {
     display: flex;
     justify-content: center;
     margin-top: 30px;
     gap: 40px;
     height: 140vh;
+}
+
+.container-contact-2 {
+    display: flexbox;
+    width: 800px;
+    margin: auto;
+}
+
+.first-section-contact {
+    position: relative;
+    width: 600px;
+    height: 930px;
+    width: inherit;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.first-article-contact {
+    position: absolute;
+    background-color: #0e470d;
+    height: 300px;
+    width: 400px;
+}
+
+.second-article-contact {
+    position: absolute;
+    background-color: orangered;
+    height: 300px;
+    width: 400px;
+    top: 310px;
+    right:0px ;
+}
+
+.third-article-contact {
+    position: absolute;
+    background-color: goldenrod;
+    height: 300px;
+    width: 400px;
+    bottom: 10px;
 }
 
 .article-img {
