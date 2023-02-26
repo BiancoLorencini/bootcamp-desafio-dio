@@ -35,6 +35,16 @@
     position: relative;
 }
 
+.head-contact {
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    background-image: url('img/contact-towfiqu-barbhuiya.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
 .logo-img {
     z-index: 2;
     position: absolute;
@@ -196,7 +206,7 @@ footer {
 }
 
 table {
-    border: 1px solid black;
+    border: .1px solid black;
     height: 500px;
     width: 600px;
     margin-top: 150px;
