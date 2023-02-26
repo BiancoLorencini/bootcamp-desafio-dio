@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <title>HealthPrime-HP</title>
 </head>
+
 <body>
     <main class="container page-4">
         <header class="head-contact">
@@ -23,13 +25,40 @@
         <section class="container-contact-2">
             <section class="first-section-contact">
                 <div class="first-article-contact">
-                    <h2>Testando o titulo do artigo numero 1</h2>
+                    <h2>Nosso endereço</h2><br>
+                    <p>Rua das Flores, 123</p>
+                    <p>Bairro Jardim Primavera</p>
+                    <p>Cidade: São Paulo</p>
+                    <p>Estado: São Paulo</p>
+                    <p>CEP: 01234-567</p>
                 </div>
                 <div class="second-article-contact">
-                    <h2>Testando o titulo do artigo numero 2</h2>
+                    <form action="#" method="post">
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="nome" name="nome" required>
+
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" name="email" required>
+
+                        <label for="assunto">Assunto:</label>
+                        <input type="text" id="assunto" name="assunto" required>
+
+                        <label for="mensagem">Mensagem:</label>
+                        <textarea id="mensagem" name="mensagem" rows="6" required></textarea>
+
+                        <div class="botoes">
+                            <button type="submit">Enviar</button>
+                            <button type="reset">Limpar</button>
+                        </div>
+                    </form>
+
                 </div>
                 <div class="third-article-contact">
-                    <h2>Testando o titulo do artigo numero 1</h2>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2192.875516227563!2d-42.96920022037069!3d-22.430443941353285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1677424919700!5m2!1spt-BR!2sbr"
+                        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+
                 </div>
             </section>
         </section>
@@ -52,4 +81,5 @@
         </div>
     </footer>
 </body>
+
 </html>
