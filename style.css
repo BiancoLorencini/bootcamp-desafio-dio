@@ -143,14 +143,13 @@ a:hover:before {
   height: 930px;
   width: inherit;
   text-align: center;
-  margin-top: 30px;
 }
 
 .first-article-contact {
   position: absolute;
   height: 200px;
   width: 400px;
-  padding-top: 30px;
+  padding-top: 20px;
   border-radius: 4px;
   top: 200px;
 }
