@@ -195,8 +195,22 @@ footer {
     }
 }
 
-.table-head-2 {
-    background-color: black;
-    color: #1D951B;
-    padding: 6px;
+table {
+    border: 1px solid black;
+    height: 500px;
+    width: 600px;
+    margin-top: 150px;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+table tr:nth-child(even) {
+    background-color: rgba(181, 240, 132, 0.26);
+}
+
+table tr:hover td {
+    background-color: rgba(172, 255, 47, 0.356);
 }
